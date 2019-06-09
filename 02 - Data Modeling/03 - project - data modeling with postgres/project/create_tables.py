@@ -1,3 +1,10 @@
+""" Create Tables
+    
+This script `DROP`'s existing tables and creates the staging tables and
+final schema for the database in Redshift as defined in `sql_queries.py`
+and `README.md`.
+"""
+
 import psycopg2
 from sql_queries import create_table_queries, drop_table_queries
 
