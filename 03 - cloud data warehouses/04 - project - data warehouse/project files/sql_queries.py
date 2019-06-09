@@ -177,6 +177,9 @@ SELECT DISTINCT se.userId,
                 se.level
 FROM staging_events se
 WHERE se.userId IS NOT NULL
+  AND se.ts = (SELECT MAX(ts)
+               FROM staging_events
+               WHERE se.userId = staging_events.userId)
 """)
 
 song_table_insert = ("""
