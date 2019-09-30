@@ -32,7 +32,7 @@ log_data/2018/11/2018-11-02-events.json
 ## Database Schema
 The table schema of the Postgres database will be created using a **_star schema_**. Although the schema is slightly denormalized with some duplicate data fields between tables, it will optimize the song play queries that Sparkify would like to run.
 
-<img id="Sparkify_SQL_Schema" src="/images/Sparkify_SQL_Schema.png" onerror="this.onerror=null; this.src="https://github.com/cmdellinger/udacity-data-engineering-nanodegree/blob/master/02%20-%20Data%20Modeling/03%20-%20project%20-%20data%20modeling%20with%20postgres/project/images/Sparkify_SQL_Schema.png" alt="">
+![Sparkify SQL Schema](images/Sparkify_SQL_Schema.png)
 
 ---
 
