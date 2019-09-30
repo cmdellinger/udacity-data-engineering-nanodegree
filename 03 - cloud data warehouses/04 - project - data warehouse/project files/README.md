@@ -2,7 +2,7 @@
 
 The purpose of this project is to create an ETL pipline that transfers data from two types of JSON log files stored in directory trees into an SQL database. The source data is song and user activity logs from a simulated music streaming app, Sparkify. The firm intends to move to the cloud, in this case Amazon Web Services (AWS). The data is stored in S3 buckets and will be loaded into staging tables on Redshift. After loading the data into staging tables, the data will be transformed into a star schema that is suitable for their queries.
 
-<img src="/images/data_flow.png" alt="ETL_pipeline" style="width:50%">
+<img src="images/data_flow.png" alt="ETL_pipeline" style="width:50%">
 
 ---
 
