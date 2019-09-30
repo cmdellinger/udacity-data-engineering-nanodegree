@@ -2,7 +2,7 @@
 
 The purpose of this project is to create an ETL pipline that transforms data from two types of JSON log files stored in directory trees into Spark DataFrames instead of tables following a database schema. The source data is song and user activity logs from a simulated music streaming app, Sparkify. The firm intends to move to a data lake, in this case Amazon Web Services (AWS). The data is stored in an S3 bucket, will be loaded into Spark DataFrames, and tranformed into the schema DataFrame tables. After loading the data into tables, the data will be stored as parquet files for faster, preprocessed loading.
 
-<img src="/images/data_flow.png" alt="ETL_pipeline" style="width:50%">
+<img src="images/data_flow.png" alt="ETL_pipeline" style="width:50%">
 
 ---
 
@@ -47,7 +47,7 @@ To save on the costs associated with reprocessing the data or keeping a cluster 
 The ouput table schema is created using a **_star schema_** to mirror to their previous database. Although the schema is slightly denormalized with some duplicate data fields between tables, it will optimize the song play queries that Sparkify would like to run, especially since `JOIN`s on large data sets start becoming very resource intensive.
 
 Previous database schema that Spark DataFrames will mirror:
-<img src="/images/Sparkify_SQL_Schema.png" alt="Sparkify SQL Schema" style="width:100%">
+<img src="images/Sparkify_SQL_Schema.png" alt="Sparkify SQL Schema" style="width:100%">
 
 ---
 
