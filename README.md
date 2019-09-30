@@ -26,4 +26,14 @@ The purpose of this project is to create an ETL pipline that transfers data from
 
 ## Data Pipelines with Airflow
 
+###[Data Pipelines with Airflow](https://github.com/cmdellinger/udacity-data-engineering-nanodegree/tree/master/05%20-%20data%20pipelines%20with%20airflow/04%20-%20project/project/home)
 
+Created a pipeline in Apache Airflow that automates the ETL of JSON files on S3 to a star schema in a Redshift database, writing custom Airflow operators to run ingest, transformation, and data quality checks.
+
+Note: Repository contains the airflow folder from the Docker install of Airflow
+
+## Capstone
+
+### [Captstone](https://github.com/cmdellinger/udacity-data-engineering-nanodegree/tree/master/06%20-%20capstone%20project/project)
+
+Programatically download variable amounts of compressed CSV files from the EPA website containing hourly data. Transform the data into daily summary statistics by state, upload to S3, then `COPY` into Redshift and make a `JOIN`-ed table for maximums and means by day.
