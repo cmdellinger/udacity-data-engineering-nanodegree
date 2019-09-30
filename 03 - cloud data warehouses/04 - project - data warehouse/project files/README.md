@@ -52,7 +52,7 @@ log_data/2018/11/2018-11-02-events.json
 
 The staging tables are created by reading in the JSON files using Redshift's `COPY` command which utilizes parallel loading of multiple files. The parallel loading allows the data to be loaded much faster than iterative `INSERT`. The table names are the same as those in the JSON files or as specified in the JSON path file.
 
-<img src="/images/staging_tables.png" alt="Staging_Tables" style="width:50%">
+<img src="images/staging_tables.png" alt="Staging_Tables" style="width:50%">
 
 ### Final Schema
 
@@ -76,12 +76,12 @@ ORDER BY MB
 
 Nieve Loading (Redshift chooses):
 
-<img src="/images/nieve_loading.png" alt="Table Sizes" style="width:80%">
+<img src="images/nieve_loading.png" alt="Table Sizes" style="width:80%">
 
 
 Redshift Optimized Loading:
 
-<img src="/images/optimized_loading.png" alt="Optimized Table Sizes" style="width:80%">
+<img src="images/optimized_loading.png" alt="Optimized Table Sizes" style="width:80%">
 
 
 ---
