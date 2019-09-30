@@ -10,7 +10,7 @@ The source data is song and user activity logs from a simulated music streaming 
 
 ### _Song Dataset_
 
-The song data is stored in directory trees based on the first three letters of each song's track ID. 
+The song data is stored in directory trees based on the first three letters of each song's track ID.
 
 _Example file structure_:
 ```javascript
@@ -30,9 +30,9 @@ log_data/2018/11/2018-11-02-events.json
 ---
 
 ## Database Schema
-The table schema of the Postgres database will be created using a **_star schema_**. Although the schema is slightly denormalized with some duplicate data fields between tables, it will optimize the song play queries that Sparkify would like to run. 
+The table schema of the Postgres database will be created using a **_star schema_**. Although the schema is slightly denormalized with some duplicate data fields between tables, it will optimize the song play queries that Sparkify would like to run.
 
-![Sparkify SQL Schema](/images/Sparkify_SQL_Schema.png)
+<img id="Sparkify_SQL_Schema" src="/images/Sparkify_SQL_Schema.png" onerror="this.onerror=null; this.src="https://github.com/cmdellinger/udacity-data-engineering-nanodegree/blob/master/02%20-%20Data%20Modeling/03%20-%20project%20-%20data%20modeling%20with%20postgres/project/images/Sparkify_SQL_Schema.png" alt="">
 
 ---
 
@@ -40,31 +40,31 @@ The table schema of the Postgres database will be created using a **_star schema
 <table>
   <tr>
     <th>File</th>
-    <th>Description</th> 
+    <th>Description</th>
   </tr>
   <tr>
     <td>data/</td>
-    <td>folder containing song and log data directory trees</td> 
+    <td>folder containing song and log data directory trees</td>
   </tr>
   <tr>
     <td>etl.ipynb</td>
-    <td>Jupyter(IPython) notebook with example ETL operations used to develop the ETL functions</td> 
+    <td>Jupyter(IPython) notebook with example ETL operations used to develop the ETL functions</td>
   </tr>
   <tr>
     <td>test.ipynb</td>
-    <td>Jupyter(IPython) notebook with test queries to check if data loaded into tables correctly</td> 
+    <td>Jupyter(IPython) notebook with test queries to check if data loaded into tables correctly</td>
   </tr>
   <tr>
     <td>create_tables.py</td>
-    <td>Python script that deletes and recreates the database as outlined in sql_queries.py</td> 
+    <td>Python script that deletes and recreates the database as outlined in sql_queries.py</td>
   </tr>
   <tr>
     <td>etl.py</td>
-    <td>Python script that performs all the ETL operations</td> 
+    <td>Python script that performs all the ETL operations</td>
   </tr>
   <tr>
     <td>sql_queries.py</td>
-    <td>contains SQL queries as strings for table destruction, creation, & data insertion</td> 
+    <td>contains SQL queries as strings for table destruction, creation, & data insertion</td>
   </tr>
 </table>
 
