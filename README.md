@@ -6,11 +6,11 @@ This repository contains lectures slides, exercises, and projects from Udacity's
 
 ### [Data Modeling with Postgres](https://github.com/cmdellinger/udacity-data-engineering-nanodegree/tree/master/02%20-%20Data%20Modeling/03%20-%20project%20-%20data%20modeling%20with%20postgres/project)
 
-The purpose of this project is to create an ETL pipline that transfers data from two types of JSON log files stored in directory trees into a Postres database using Python and SQL.
+The purpose of this project is to create an ETL pipeline that transfers data from two types of JSON log files stored in directory trees into a Postres database using Python and SQL.
 
 ### [Data Modeling with Apache Cassandra](https://github.com/cmdellinger/udacity-data-engineering-nanodegree/tree/master/02%20-%20Data%20Modeling/05%20-%20project%20-%20data%20modeling%20with%20apache%20cassandra/project)
 
-The purpose of this project is to create an ETL pipline that transfers data from CSV files stored in a directory into a NoSQL database (Apache Cassandra) using Python.
+The purpose of this project is to create an ETL pipeline that transfers data from CSV files stored in a directory into a NoSQL database (Apache Cassandra) using Python.
 
 ## Cloud Data Warehouses
 
